@@ -2,7 +2,7 @@ settings:
  language: "eng"
  force-language: false
  shutdown-message: "Server closed"
- query-plugins: true
+ query-plugins: false
  deprecated-verbose: true
  enable-profiling: false
  profile-report-trigger: 20
@@ -22,7 +22,7 @@ redstone:
  enable: true
 
 weather:
- enable: true
+ enable: false
  
 log:
  enable: true
@@ -129,6 +129,6 @@ aliases:
 worlds:
  #These settings will override the generator set in server.properties and allows loading multiple levels
  #Example:
- #world:
- # seed: 404
- # generator: FLAT:2;7,59x1,3x3,2;1;decoration(treecount=80 grasscount=45)
+ world:
+ seed: 404
+ generator: FLAT:2;7,59x1,3x3,2;1;decoration(treecount=80 grasscount=45)
